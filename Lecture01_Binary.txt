@@ -1,0 +1,107 @@
+kilobyte - kb - 10^3
+Megabyte - mb - 10^6
+gigabyte - gb - 10^9
+....... Powerpoint 1 Slide 9........
+
+Digital Logics - Understanding of how logical circuits work
+
+	computer aided design software tool
+		Verilog - hardware design tool
+
+Binary Digit = 0/1
+bit = 0
+4 bits = nibble
+8 bits = byte
+1000 bits = kilobyte
+
+
+2^10 = 1024
+10^3 = 1000	
+
+Base 2 -
+All numbers with a subscript '2' known as binary
+B = bn-1,bn-2....b1b0
+V(B) = bn-1 x 2^(n-1) + bn-2 x 2^(n-2).....
+
+Decimal Integer - expressed by a n-tuple comprising n decimal digits:
+D = dn-1, dn-2 ... d1d0
+V(D) = dn-1 x 10^(n-1) + dn-2 x 10^(n-2)....
+
+Decimal - 10
+10 different symbols for counting values 0 - 9....
+0 1 2 3 4 5 6 7 8 9
+
+Binary - 2
+2 different symbols 0, 1
+#2 = 10
+#3 = 11
+#4 = 100
+#5 = 101
+#6 = 110
+#7 = 111
+#8 = 1000
+#9 = 1001
+	the number 10, can be divisible by: 1,10 / 2,5
+		    2, can be divisible by itself: 2,1
+how come we have to learn binary?
+	reason: our computers are meant to read 0,1.
+123base10 = 1111011base2
+
+Denoting the decimal number with subscript of 10
+Denoting the binary number with subscript of 2
+
+3456
+6 - 1's 6 x 10^ 0
+5 - 10's 5 x 10 ^ 1
+4 - 100's 4 x 10 ^ 2
+3 - 1000's 3 x 10^3
+3 = d5
+4 = d4
+.....
+decimal places 1.78
+7x(1/10)
+
+
+
+
+Binary Number Convert to Decimal
+
+~~~~~  1001.01  ~~~~~~
+Convert this number to decimal.
+
+6 tuples. (6 digits)
+
+1 0 0 1
+
+1 x 2^3 + 0 x 2^2 + 0 x 2^1 + 1 x 2^0 + 0 x 2^(1/2) + 1 x 2 (1/4)
+here we have
+8 + 0 + 0 + 1 + 0 + .25 = 9.25base10
+
+1101.111base2
+1 x 8 + 1 x 4 + 0 + 1 + .5 + .25 + 1/8
+13.75 + .125
+13.875
+
+1101001base2
+7 tuples
+1 + 8 + 32 + 64 = 105
+
+~~~~ converting decimal to binary ~~~~
+to convert decimal to binary:
+	275base10 -> binary:
+			divide by 2......
+			137.5 -> 137R1
+			137%2	 68R1
+			68%2	 34R0
+			32/2	 17R0
+			17/2	 8R1
+			8/4		 4R0
+			4/2		 2R0
+			2/2		 0R0
+			0/2		 0R1
+				Answer: Read Backwards! -> 100010011
+	convert 34.56
+	34 - whole number 
+	56 - fractional portion
+
+	
